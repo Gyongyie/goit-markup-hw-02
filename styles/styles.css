@@ -2,19 +2,65 @@
     -- link-color: red ;
 }
 
-.nav-header a
-.nav-header a:visited{
+.global-header a
+.global-header a:visited{
     color: var(-- link color);
 }
 
-.nav-header li {
+.global-header li {
     list-style-type: none;
+}
+
+.global-header {
+    color: #2E2F42;
+    
+}
+.global-header :hover {
+   color:chartreuse
+}
+
+.contact {
+    color: #E7E9FC
+   
 }
 
 .global-section{
     background-color: black;
     color:white
-}
+   }
 .title{
     font-weight: 700;
+    size: 56px;
+    line height: 60px;
+}   
+.buten-order {
+        background-color: #4D5AE5;
+        color: white
+}
+
+.list li {
+    list-style-type: none;
+}
+
+.list .enumeration {
+    color:#2E2F42
+}
+.aboute-us {
+   color:#2E2F42 
+}
+
+.team-section {
+    background-color: #F4F4FD;
+}
+
+.our-team {
+    color:#2E2F42
+}
+.team-section .name {
+    color: #2E2F42;
+}
+
+.footer {
+    background-color: black;
+    color: #F4F4FD
 }
