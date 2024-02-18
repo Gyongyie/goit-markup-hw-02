@@ -1,5 +1,12 @@
 :root{
     -- link-color: red ;
+    -- text-color
+    -- text-font-family: "Roboto" sans-serif
+}
+
+.body {
+    font-family: "Roboto",sans-serif
+    color: #434455
 }
 
 .global-header a
@@ -7,6 +14,14 @@
     color: var(-- link color);
 }
 
+.logo1::before {
+    content: "Web";
+    color:blue;
+    Width: 115px;
+    Height: 24px;
+    Top: 24px;
+    Left 156px
+}
 .global-header li {
     list-style-type: none;
 }
@@ -16,11 +31,26 @@
     
 }
 .global-header :hover {
-   color:chartreuse
+   color:chartreuse;
 }
 
-.contact {
-    color: #E7E9FC
+.button {
+    Width: 261px;
+    Height: 24px;
+    Gap: 40px;
+    Weight: 500;
+}
+
+.contact1 {
+    color: #E7E9FC;
+    Width: 153px;
+    Height: 24px;
+}
+
+.contact2 {
+   color: #E7E9FC;
+   Width: 151px;
+   Height: 24px;
    
 }
 
@@ -63,4 +93,9 @@
 .footer {
     background-color: black;
     color: #F4F4FD
+}
+
+.logo2::before {
+    content: "Web";
+    color: blue;
 }
